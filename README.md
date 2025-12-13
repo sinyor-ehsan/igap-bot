@@ -7,7 +7,7 @@
 pip install -U igap-bot
 ```
 
-#شروع سریع
+# شروع سریع
 ```python
 from igap_bot.bot import BotClient
 
@@ -20,7 +20,7 @@ async def get_message(message: Message):
 bot.run()
 ```
 
-#ارسال کیبورد
+# ارسال کیبورد
 ```python
 from igap_bot.bot import BotClient, filters, Message
 from igap_bot.bot.button import Button, ButtonRow, ButtonKeyboard, ActionTypeEnum, AdditionalTypeEnum
@@ -64,7 +64,7 @@ async def get_phone(message: Message):
 bot.run()
 ```
 
-#ثبت هندلر برای پیام ویرایش شده
+# ثبت هندلر برای پیام ویرایش شده
 
 ```python
 from igap_bot.bot import BotClient, filters, Message
